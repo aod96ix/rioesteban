@@ -15,39 +15,36 @@ header {
     z-index: 1000;
 }
 
-header nav {
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
     display: flex;
     justify-content: space-around;
-    padding: 1em 0;
 }
 
-header nav a {
-    text-decoration: none;
-    color: #333;
-    font-weight: bold;
-    padding: 0.5em 1em;
+nav ul li {
     position: relative;
 }
 
-header nav a:hover::after {
-    content: "";
+nav ul li a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+    padding: 1em;
+    display: block;
+}
+
+nav ul li .dropdown-content {
+    display: none;
     position: absolute;
-    bottom: -5px;
-    left: 50%;
-    width: 0;
-    height: 2px;
-    background-color: #f0c674;
-    transition: all 0.3s;
+    background-color: rgba(255, 255, 255, 0.9);
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    z-index: 1000;
 }
 
-header nav a:hover::after {
-    left: 0;
-    width: 100%;
-}
-
-main {
-    padding: 2em 1em;
-    margin-top: 80px;
+nav ul li:hover .dropdown-content {
+    display: block;
 }
 
 .overlay-text {
@@ -76,4 +73,9 @@ main {
     height: auto;
     margin: 1em;
     border-radius: 5px;
+}
+
+main {
+    padding: 2em 1em;
+    margin-top: 80px;
 }
