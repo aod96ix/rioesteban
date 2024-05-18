@@ -10,4 +10,70 @@ header {
     position: fixed;
     top: 0;
     width: 100%;
-    background-color: rgba(255, 255, 255
+    background-color: rgba(255, 255, 255, 0.9);
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    z-index: 1000;
+}
+
+header nav {
+    display: flex;
+    justify-content: space-around;
+    padding: 1em 0;
+}
+
+header nav a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+    padding: 0.5em 1em;
+    position: relative;
+}
+
+header nav a:hover::after {
+    content: "";
+    position: absolute;
+    bottom: -5px;
+    left: 50%;
+    width: 0;
+    height: 2px;
+    background-color: #f0c674;
+    transition: all 0.3s;
+}
+
+header nav a:hover::after {
+    left: 0;
+    width: 100%;
+}
+
+main {
+    padding: 2em 1em;
+    margin-top: 80px;
+}
+
+.overlay-text {
+    background: rgba(255, 255, 255, 0.8);
+    padding: 1em;
+    margin-bottom: 1em;
+    border-radius: 5px;
+}
+
+.transparent-yellow {
+    background: rgba(255, 255, 0, 0.2);
+}
+
+.transparent-blue {
+    background: rgba(0, 0, 255, 0.2);
+}
+
+.images {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.images img {
+    max-width: 100%;
+    height: auto;
+    margin: 1em;
+    border-radius: 5px;
+}
