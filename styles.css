@@ -10,7 +10,7 @@ header {
     position: fixed;
     top: 0;
     width: 100%;
-    background-color: rgba(255, 255, 255, 0.9);
+    background-color: #add8e6; /* Light blue */
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
     z-index: 1000;
 }
@@ -21,6 +21,7 @@ nav ul {
     padding: 0;
     display: flex;
     justify-content: space-around;
+    align-items: center;
 }
 
 nav ul li {
@@ -33,6 +34,17 @@ nav ul li a {
     font-weight: bold;
     padding: 1em;
     display: block;
+    transition: background-color 0.3s;
+}
+
+nav ul li a:hover {
+    background-color: #0000ff; /* Blue */
+    color: #ffffff; /* White */
+}
+
+nav ul li .logo {
+    width: 50px;
+    height: auto;
 }
 
 nav ul li .dropdown-content {
@@ -47,35 +59,47 @@ nav ul li:hover .dropdown-content {
     display: block;
 }
 
-.overlay-text {
-    background: rgba(255, 255, 255, 0.8);
-    padding: 1em;
-    margin-bottom: 1em;
-    border-radius: 5px;
-}
-
-.transparent-yellow {
-    background: rgba(255, 255, 0, 0.2);
-}
-
-.transparent-blue {
-    background: rgba(0, 0, 255, 0.2);
-}
-
-.images {
+.section {
+    height: 100vh;
+    padding: 2em;
     display: flex;
-    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.yellow {
+    background-color: rgba(255, 255, 0, 0.2);
+}
+
+.blue {
+    background-color: rgba(0, 0, 255, 0.2);
+}
+
+footer {
+    background-color: #add8e6; /* Light blue */
+    padding: 1em;
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+footer ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
     justify-content: space-around;
 }
 
-.images img {
-    max-width: 100%;
-    height: auto;
-    margin: 1em;
-    border-radius: 5px;
+footer ul li {
+    display: inline;
 }
 
-main {
-    padding: 2em 1em;
-    margin-top: 80px;
+footer ul li a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+    padding: 0.5em;
 }
