@@ -38,7 +38,7 @@ nav ul li a {
 }
 
 nav ul li a:hover {
-    background-color: rgba(0, 0, 255, 0.3); /* More transparent blue on hover */
+    background-color: rgba(0, 0, 255, 0.1); /* More transparent blue on hover */
     color: #ffffff; /* White */
 }
 
@@ -154,7 +154,7 @@ p {
 
 .resume-content {
     margin-left: 320px; /* Adjust to ensure there's space for the sidebar */
-    padding-top: 150px; /* Adjust top padding to move content higher or lower */
+    padding-top: 200px; /* Adjust top padding to move content higher or lower */
     padding: 2em 1em 1em 1em; /* Add top padding to avoid header overlap */
     flex: 1;
     text-align: left; /* Ensure text starts from the left */
