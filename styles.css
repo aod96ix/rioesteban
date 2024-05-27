@@ -189,3 +189,11 @@ p {
     display: flex;
     flex-direction: column;
 }
+
+ul {
+    padding-left: 1em;
+}
+
+ul li {
+    margin-bottom: 0.5em;
+}
