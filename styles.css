@@ -189,7 +189,8 @@ p {
     text-align: left; /* Ensure text starts from the left */
     display: flex;
     flex-direction: column;
-    overflow: auto; /* Ensure content is scrollable */
+    height: 100%;
+    overflow-y: auto; /* Ensure content is scrollable */
 }
 
 ul {
