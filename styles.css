@@ -10,7 +10,7 @@ header {
     position: fixed;
     top: 0;
     width: 100%;
-    background-color: #add8e6; /* Light blue */
+    background-color: #87CEEB; /* Brighter sky blue */
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
     z-index: 1000;
 }
@@ -38,7 +38,7 @@ nav ul li a {
 }
 
 nav ul li a:hover {
-    background-color: #0000ff; /* Blue */
+    background-color: rgba(0, 0, 255, 0.3); /* More transparent blue on hover */
     color: #ffffff; /* White */
 }
 
@@ -70,15 +70,15 @@ nav ul li:hover .dropdown-content {
 }
 
 .yellow {
-    background-color: rgba(255, 255, 0, 0.2);
+    background-color: #FFD700; /* Brighter sun yellow */
 }
 
 .blue {
-    background-color: rgba(0, 0, 255, 0.2);
+    background-color: #87CEEB; /* Brighter sky blue */
 }
 
 footer {
-    background-color: #add8e6; /* Light blue */
+    background-color: #87CEEB; /* Brighter sky blue */
     padding: 1em;
     text-align: center;
     position: fixed;
@@ -139,7 +139,7 @@ p {
 
 .content-container {
     display: flex;
-    background-color: rgba(255, 255, 0, 0.2); /* Ensure consistent yellow background */
+    background-color: #FFD700; /* Brighter sun yellow for profile pages */
 }
 
 .fixed-sidebar {
@@ -148,12 +148,13 @@ p {
     left: 0;
     width: 300px; /* Adjust width as needed */
     padding: 1em;
-    background-color: rgba(255, 255, 255, 0.9);
+    background-color: #FFD700; /* Brighter sun yellow */
     text-align: center;
 }
 
 .resume-content {
     margin-left: 320px; /* Adjust to ensure there's space for the sidebar */
+    padding-top: 150px; /* Adjust top padding to move content higher or lower */
     padding: 2em 1em 1em 1em; /* Add top padding to avoid header overlap */
     flex: 1;
     text-align: left; /* Ensure text starts from the left */
