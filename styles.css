@@ -159,7 +159,7 @@ p {
 
 .resume-content {
     margin-left: 320px; /* Adjust to ensure there's space for the sidebar */
-    padding-top: 200px; /* Adjust top padding to move content higher or lower */
+    padding-top: 300px; /* Adjust top padding to move content higher or lower */
     padding: 2em 1em 1em 1em; /* Add top padding to avoid header overlap */
     flex: 1;
     text-align: left; /* Ensure text starts from the left */
