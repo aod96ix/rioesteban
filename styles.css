@@ -52,6 +52,7 @@ nav ul li a:hover {
 nav ul li .logo {
     height: 75px; /* Ensure the logo takes up the full height of the header */
     width: auto;
+    object-fit: contain; /* Ensures the logo is fully contained within the header */
 }
 
 .dropbtn {
