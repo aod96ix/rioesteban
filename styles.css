@@ -10,10 +10,10 @@ header {
     position: fixed;
     top: 0;
     width: 100%;
-    background-color: #00BFFF; /* Darker sky blue */
+    background-color: rgba(255, 255, 255, 0.9); /* Slightly transparent white */
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
     z-index: 1000;
-    height: 50px; /* Adjust header height if needed */
+    height: 70px; /* Adjust header height if needed */
 }
 
 nav ul {
@@ -43,7 +43,7 @@ nav ul li a {
 }
 
 nav ul li a:hover {
-    background-color: rgba(0, 0, 255, 0.1); /* More transparent blue on hover */
+    background-color: rgba(0, 0, 128, 0.1); /* More transparent navy blue on hover */
     color: #ffffff; /* White */
 }
 
@@ -55,7 +55,7 @@ nav ul li .logo {
 nav ul li .dropdown-content {
     display: none;
     position: absolute;
-    background-color: rgba(255, 255, 255, 0.9);
+    background-color: rgba(255, 255, 255, 0.9); /* Slightly transparent white */
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
     z-index: 1000;
 }
@@ -79,11 +79,11 @@ nav ul li:hover .dropdown-content {
 }
 
 .blue {
-    background-color: #00BFFF; /* Darker sky blue */
+    background-color: #000080; /* Navy blue */
 }
 
 footer {
-    background-color: #00BFFF; /* Darker sky blue */
+    background-color: rgba(0, 0, 0, 0.9); /* Slightly transparent black */
     padding: 1em;
     text-align: center;
     position: fixed;
@@ -105,7 +105,7 @@ footer ul li {
 
 footer ul li a {
     text-decoration: none;
-    color: #333;
+    color: #ffffff; /* White text */
     font-weight: bold;
     padding: 0.5em;
 }
@@ -159,7 +159,7 @@ p {
 
 .resume-content {
     margin-left: 320px; /* Adjust to ensure there's space for the sidebar */
-    padding-top: 300px; /* Adjust top padding to move content higher or lower */
+    padding-top: 200px; /* Adjust top padding to move content higher or lower */
     padding: 2em 1em 1em 1em; /* Add top padding to avoid header overlap */
     flex: 1;
     text-align: left; /* Ensure text starts from the left */
