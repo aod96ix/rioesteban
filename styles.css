@@ -43,7 +43,7 @@ nav ul li a {
 }
 
 nav ul li a:hover {
-    background-color: rgba(0, 64, 128, 0.1); /* More transparent darker ocean blue on hover */
+    background-color: rgba(192, 192, 192, 0.5); /* Slightly transparent silver on hover */
     color: #ffffff; /* White */
 }
 
@@ -79,7 +79,7 @@ nav ul li:hover .dropdown-content {
 }
 
 .blue {
-    background-color: #004080; /* Darker ocean blue */
+    background-color: #87CEEB; /* Sky blue */
 }
 
 footer {
