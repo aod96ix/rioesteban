@@ -139,7 +139,8 @@ p {
 
 .content-container {
     display: flex;
-    align-items: flex-start;
+    align-items: center; /* Center align items vertically */
+    background-color: rgba(255, 255, 0, 0.2); /* Ensure consistent yellow background */
 }
 
 .fixed-sidebar {
@@ -154,6 +155,7 @@ p {
 
 .resume-content {
     margin-left: 320px; /* Adjust to ensure there's space for the sidebar */
-    padding: 1em;
+    padding: 2em 1em 1em 1em; /* Add top padding to avoid header overlap */
     flex: 1;
+    text-align: left; /* Ensure text starts from the left */
 }
