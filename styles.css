@@ -10,7 +10,7 @@ header {
     position: fixed;
     top: 0;
     width: 100%;
-    background-color: #87CEEB; /* Brighter sky blue */
+    background-color: #00BFFF; /* Darker sky blue */
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
     z-index: 1000;
 }
@@ -74,11 +74,11 @@ nav ul li:hover .dropdown-content {
 }
 
 .blue {
-    background-color: #87CEEB; /* Brighter sky blue */
+    background-color: #00BFFF; /* Darker sky blue */
 }
 
 footer {
-    background-color: #87CEEB; /* Brighter sky blue */
+    background-color: #00BFFF; /* Darker sky blue */
     padding: 1em;
     text-align: center;
     position: fixed;
@@ -139,25 +139,4 @@ p {
 
 .content-container {
     display: flex;
-    background-color: #FFD700; /* Brighter sun yellow for profile pages */
-}
-
-.fixed-sidebar {
-    position: fixed;
-    top: 100px; /* Adjust to ensure it's below the header */
-    left: 0;
-    width: 300px; /* Adjust width as needed */
-    padding: 1em;
-    background-color: #FFD700; /* Brighter sun yellow */
-    text-align: center;
-}
-
-.resume-content {
-    margin-left: 320px; /* Adjust to ensure there's space for the sidebar */
-    padding-top: 200px; /* Adjust top padding to move content higher or lower */
-    padding: 2em 1em 1em 1em; /* Add top padding to avoid header overlap */
-    flex: 1;
-    text-align: left; /* Ensure text starts from the left */
-    display: flex;
-    flex-direction: column;
-}
+    background-color: #FFD700; 
