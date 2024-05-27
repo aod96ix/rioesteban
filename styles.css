@@ -108,24 +108,18 @@ footer ul li a {
     display: flex;
     justify-content: center;
     align-items: center;
+    gap: 2em; /* Adjust the gap between the images as needed */
     margin-bottom: 1em;
 }
 
-.person-photo {
-    width: 150px;
-    height: auto;
-    margin: 0 1em;
-}
-
-.caption-container {
+.person {
     text-align: center;
-    display: flex;
-    justify-content: center;
-    align-items: center;
 }
 
-.caption-container p {
-    margin: 0 1em;
+.person-photo {
+    width: 150px; /* Adjust the width as needed */
+    height: auto;
+    margin-bottom: 0.5em;
 }
 
 h1, h2 {
@@ -137,4 +131,3 @@ p {
     text-align: center;
     margin-top: 0.5em;
 }
-
