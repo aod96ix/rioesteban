@@ -151,6 +151,8 @@ footer ul li a {
     width: 300px; /* Adjust the width to make the images twice as big */
     height: auto;
     margin-bottom: 0.5em;
+    border: 2px solid #333; /* Adding a border for the frame effect */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Adding a subtle shadow for the frame effect */
 }
 
 h1, h2, h3 {
@@ -200,4 +202,14 @@ ul {
 
 ul li {
     margin-bottom: 0.5em;
+}
+
+.placeholder {
+    background-color: #f0f0f0; /* Light gray for placeholder background */
+    border: 1px dashed #ccc; /* Dashed border for placeholders */
+    padding: 20px;
+    margin: 10px 0;
+    text-align: center;
+    font-size: 1.2em;
+    color: #999;
 }
