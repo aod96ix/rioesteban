@@ -97,6 +97,8 @@ nav ul li:hover .dropdown-content {
     align-items: center;
     text-align: center;
     overflow: auto;
+    padding-top: 100px; /* Add space at the top */
+    padding-bottom: 100px; /* Add space at the bottom */
 }
 
 .yellow {
@@ -151,8 +153,6 @@ footer ul li a {
     width: 300px; /* Adjust the width to make the images twice as big */
     height: auto;
     margin-bottom: 0.5em;
-    border: 2px solid #333; /* Adding a border for the frame effect */
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Adding a subtle shadow for the frame effect */
 }
 
 h1, h2, h3 {
@@ -194,6 +194,7 @@ p {
     flex-direction: column;
     height: 100%;
     overflow-y: auto; /* Ensure content is scrollable */
+    padding-bottom: 100px; /* Add space at the bottom */
 }
 
 ul {
@@ -212,4 +213,24 @@ ul li {
     text-align: center;
     font-size: 1.2em;
     color: #999;
+}
+
+/* New CSS for the photo panel */
+.photo-panel {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2em;
+    margin-bottom: 2em;
+}
+
+.photo-frame {
+    max-width: 300px;
+    width: 100%;
+    text-align: center;
+}
+
+.photo-frame img {
+    width: 100%;
+    height: auto;
 }
